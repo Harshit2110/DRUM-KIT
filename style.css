@@ -1,0 +1,39 @@
+body {
+    background: url("background.jpg");
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.keys_sounds {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.key {
+    border: .1rem solid black;
+    border-radius: .7rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    width: 10rem;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-shadow: 0 0 .5rem white;
+    transition: all .07s ease;
+}
+.key kbd {
+    font-size: 2rem;
+}
+.beat {
+    font-size: .6rem;
+    color: #E2F00D;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #E2F00D;
+    box-shadow: 0 0 5rem #E2f00D;
+}
+
